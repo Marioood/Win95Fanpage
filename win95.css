@@ -1,0 +1,93 @@
+ body{
+	background-color: #008080;
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 11px;
+ }
+
+.window{
+	background-color: silver;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 2px;
+	border: 2px;
+	border-style: solid;
+	border-image: url(window-outset.png) 2 stretch;
+}
+
+button{
+	background-color: silver;
+	border: 2px;
+	border-style: solid;
+	border-image: url(outset.png) 2 stretch;
+	margin-bottom: 2px;
+	height: 23px;
+	width: 75px;
+	font-size: 9px;
+}
+
+button:active{
+	border-style: solid;
+	border-image: url(inset.png) 2 stretch;
+}
+
+hr{
+	border: 1px;
+	border-style: solid;
+	border-image: url(small-inset.png) 1 stretch;
+}
+
+.headerbar{
+	background-color: grey;
+	height: 18px;
+	padding-left: 2px;
+}
+
+.headertext{
+	font-size: 9px;
+	color: silver;
+	position: relative;
+	bottom: 25%;
+}
+
+.headerbutton{
+	float: right;
+	padding: 0px;
+	height: 14px;
+	width: 16px;
+	position: relative;
+	top: 2px;
+}
+
+.headerbuttonimage{
+	position: relative;
+	bottom: 2px;
+}
+
+.windowinset{
+	background-color: white;
+	border: 2px;
+	border-style: solid;
+	border-image: url(inset.png) 2 stretch;
+	padding: 2px;
+}
+
+.windowaside{
+	float: left;
+	width: 75px;
+	min-height: inherit;
+}
+
+.marginside{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+buon{
+	background-color: silver;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	border-bottom-color: grey;
+	border-right-color: grey;
+}
