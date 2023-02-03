@@ -2,39 +2,52 @@
 	background-color: #008080;
 	margin: 0px;
 	font-family: sans-serif;
-	font-size: 11px;
+	font-size: 12px;
+	line-height: 13px;
  }
 
 .window{
 	background-color: silver;
 	margin-left: 25%;
 	margin-right: 25%;
+	margin-bottom: 32px;
 	padding: 2px;
 	border: 2px;
 	border-style: solid;
-	border-image: url(window-outset.png) 2 stretch;
+	border-image: url(misc/window-outset.png) 2 stretch;
 }
 
 button{
 	background-color: silver;
 	border: 2px;
 	border-style: solid;
-	border-image: url(outset.png) 2 stretch;
+	border-image: url(misc/outset.png) 2 stretch;
 	margin-bottom: 2px;
+	height: 22px;
+	font-size: 12px;
+}
+
+.optionbutton{
 	height: 23px;
 	width: 75px;
-	font-size: 9px;
+}
+
+.taskbarbutton{
+	width: 160px;
+	margin-left: 1;
+	margin-right: 2;
+	text-align: left;
 }
 
 button:active{
 	border-style: solid;
-	border-image: url(inset.png) 2 stretch;
+	border-image: url(misc/inset.png) 2 stretch;
 }
 
 hr{
 	border: 1px;
 	border-style: solid;
-	border-image: url(small-inset.png) 1 stretch;
+	border-image: url(misc/small-inset.png) 1 stretch;
 }
 
 .headerbar{
@@ -44,7 +57,6 @@ hr{
 }
 
 .headertext{
-	font-size: 9px;
 	color: silver;
 	position: relative;
 	bottom: 25%;
@@ -68,7 +80,7 @@ hr{
 	background-color: white;
 	border: 2px;
 	border-style: solid;
-	border-image: url(inset.png) 2 stretch;
+	border-image: url(misc/inset.png) 2 stretch;
 	padding: 2px;
 }
 
@@ -76,6 +88,37 @@ hr{
 	float: left;
 	width: 75px;
 	min-height: inherit;
+}
+
+.iconcontainer{
+	float: left;
+}
+
+.icon{
+	width: 75px;
+	height: 73px;
+	padding-top: 2px;
+	text-align: center;
+	display: inline-block;
+	margin-right: -3px;
+}
+
+.icontext{
+	margin-top: 5px;
+}
+
+.taskbar{
+	height: 26px;
+	width: 100%;
+	background-color: silver;
+	position: absolute;
+	bottom: 0px;
+	border-top: solid 2px;
+	border-image: url(misc/window-outset.png) 2 stretch;
+}
+
+.taskbarcontents{
+	margin: 2px;
 }
 
 .marginside{
